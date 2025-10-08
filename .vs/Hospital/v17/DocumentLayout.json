@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\clinic_management\\Hospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9102FF20-0DC6-45C7-A3F2-B13739361E45}|Hospital.csproj|c:\\users\\dell\\source\\repos\\clinic_management\\hospital\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9102FF20-0DC6-45C7-A3F2-B13739361E45}|Hospital.csproj|solutionrelative:dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9102FF20-0DC6-45C7-A3F2-B13739361E45}|Hospital.csproj|c:\\users\\dell\\source\\repos\\clinic_management\\hospital\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9102FF20-0DC6-45C7-A3F2-B13739361E45}|Hospital.csproj|solutionrelative:admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\clinic_management\\Hospital\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Dashboard.aspx",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\clinic_management\\Hospital\\Dashboard.aspx",
+              "RelativeToolTip": "Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-08T09:48:10.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\clinic_management\\Hospital\\Admin.Master",
+              "RelativeDocumentMoniker": "Admin.Master",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\clinic_management\\Hospital\\Admin.Master",
+              "RelativeToolTip": "Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-08T09:42:50.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

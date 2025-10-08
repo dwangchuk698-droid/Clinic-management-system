@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="Hospital.Dashboard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="Hospital.Dashboard1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content5" runat="server" contentplaceholderid="ContentPlaceHolder1">
@@ -199,27 +199,7 @@
                             overflow-x: auto;
                         }
 
-                        table {
-                            width: 100%;
-                            border-collapse: collapse;
-                        }
-
-                        th, td {
-                            padding: 12px 15px;
-                            text-align: left;
-                            border-bottom: 1px solid #e0e0e0;
-                        }
-
-                        th {
-                            background-color: #f8f9fa;
-                            color: var(--gray);
-                            font-weight: 600;
-                        }
-
-                        tr:hover {
-                            background-color: #f8f9fa;
-                        }
-
+                       
                         .status {
                             padding: 5px 10px;
                             border-radius: 20px;
@@ -252,7 +232,7 @@
                         }
 
                         /* Responsive */
-                        @media (max-width: 768px) {
+                        @media (max-width: 168px) {
                             .sidebar {
                                 width: 70px;
                             }
@@ -294,167 +274,7 @@
                         </div>
         </div>
 
-                    <!-- Main Content -->
-                    <div class="main-content">
-                        <!-- Header -->
-                        <div class="header">
-                            <div class="search-box">
-                                <input type="text" placeholder="Search...">
-                            </div>
-                            <div class="user-info">
-                                <img src="https://ui-avatars.com/api/?name=Admin+User&background=random" alt="Admin User"> <span>Admin User</span>
-                            </div>
-                        </div>
-
-                        <!-- Content Area -->
-                        <div class="content">
-                            <h1 class="page-title">Dashboard</h1>
-
-                            <!-- Stats Cards -->
-                            <div class="card-grid">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <div class="card-title">
-                                            Total Patients</div>
-                                        <div class="card-icon" style="background: #e3f2fd; color: #2196f3;">
-                                            <i class="fas fa-user-injured"></i>
-                                        </div>
-                                    </div>
-                                    <div class="card-content">
-                                        1,248</div>
-                                    <div class="card-footer">
-                                        <i class="fas fa-arrow-up"></i>12% from last month</div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <div class="card-title">
-                                            Today's Appointments</div>
-                                        <div class="card-icon" style="background: #e8f5e9; color: #4caf50;">
-                                            <i class="fas fa-calendar-check"></i>
-                                        </div>
-                                    </div>
-                                    <div class="card-content">
-                                        24</div>
-                                    <div class="card-footer">
-                                        4 appointments pending</div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <div class="card-title">
-                                            Doctors Available</div>
-                                        <div class="card-icon" style="background: #fff8e1; color: #ffc107;">
-                                            <i class="fas fa-user-md"></i>
-                                        </div>
-                                    </div>
-                                    <div class="card-content">
-                                        8</div>
-                                    <div class="card-footer">
-                                        2 on leave</div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <div class="card-title">
-                                            Revenue</div>
-                                        <div class="card-icon" style="background: #fce4ec; color: #e91e63;">
-                                            <i class="fas fa-rupee-sign"></i>
-                                        </div>
-                                    </div>
-                                    <div class="card-content">
-                                        ₹86,500</div>
-                                    <div class="card-footer">
-                                        <i class="fas fa-arrow-up"></i>8% from last month</div>
-                                </div>
-                            </div>
-
-                            <!-- Appointments Table -->
-                            <div class="table-container">
-                                <h2>Recent Appointments</h2>
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Patient</th>
-                                            <th>Doctor</th>
-                                            <th>Date & Time</th>
-                                            <th>Status</th>
-                                            <th>Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Rajesh Kumar</td>
-                                            <td>Dr. Sharma</td>
-                                            <td>10 Aug 2023, 10:00 AM</td>
-                                            <td><span class="status status-confirmed">Confirmed</span></td>
-                                            <td>
-                                                <button>
-                                                    <i class="fas fa-edit"></i>
-                                                </button>
-                                                <button>
-                                                    <i class="fas fa-trash"></i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Priya Singh</td>
-                                            <td>Dr. Gupta</td>
-                                            <td>10 Aug 2023, 11:30 AM</td>
-                                            <td><span class="status status-pending">Pending</span></td>
-                                            <td>
-                                                <button>
-                                                    <i class="fas fa-edit"></i>
-                                                </button>
-                                                <button>
-                                                    <i class="fas fa-trash"></i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Vikram Mehta</td>
-                                            <td>Dr. Reddy</td>
-                                            <td>10 Aug 2023, 1:15 PM</td>
-                                            <td><span class="status status-confirmed">Confirmed</span></td>
-                                            <td>
-                                                <button>
-                                                    <i class="fas fa-edit"></i>
-                                                </button>
-                                                <button>
-                                                    <i class="fas fa-trash"></i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Anjali Patel</td>
-                                            <td>Dr. Kapoor</td>
-                                            <td>10 Aug 2023, 3:00 PM</td>
-                                            <td><span class="status status-cancelled">Cancelled</span></td>
-                                            <td>
-                                                <button>
-                                                    <i class="fas fa-edit"></i>
-                                                </button>
-                                                <button>
-                                                    <i class="fas fa-trash"></i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Sanjay Verma</td>
-                                            <td>Dr. Joshi</td>
-                                            <td>10 Aug 2023, 4:45 PM</td>
-                                            <td><span class="status status-confirmed">Confirmed</span></td>
-                                            <td>
-                                                <button>
-                                                    <i class="fas fa-edit"></i>
-                                                </button>
-                                                <button>
-                                                    <i class="fas fa-trash"></i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-        </div>
+               
 </asp:Content>
 <asp:Content ID="Content7" runat="server" contentplaceholderid="ContentPlaceHolder3">
                 <!-- Footer -->
