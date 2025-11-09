@@ -33,7 +33,7 @@ https://templatemo.com/tm-566-medic-care
         <main>
         <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
             <div class="container">
-                <a class="navbar-brand mx-auto d-lg-none" href="index.html">Medic Care <strong class="d-block">Health Specialist</strong> </a>
+                <a class="navbar-brand mx-auto d-lg-none" href="Home.aspx">Medic Care <strong class="d-block">Health Specialist</strong> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,7 +44,7 @@ https://templatemo.com/tm-566-medic-care
                         <li class="nav-item"><a class="nav-link" href="Timeline.aspx">Timeline</a>
                                         </li>
 
-                                        <a class="navbar-brand d-none d-lg-block" href="index.html">Medic Care <strong class="d-block">Health Specialist</strong> </a>
+                                        <a class="navbar-brand d-none d-lg-block" href="Home.aspx">Medic Care <strong class="d-block">Health Specialist</strong> </a>
                         <li class="nav-item"><a class="nav-link" href="Testimonials.aspx">Testimonials</a> </li>
                         <li class="nav-item"><a class="nav-link" href="Booking.aspx">Booking</a> </li>
                         <li class="nav-item"><a class="nav-link" href="Contact.aspx">Contact</a> </li>

@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Hospital {
-    
-    
-    public partial class Dashboard1 {
+namespace Hospital
+{
+
+
+    public partial class Dashboard
+    {
     }
 }
